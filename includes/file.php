@@ -82,5 +82,6 @@ function is_Stebins($input)
 	}
 	$result[0]=$i;
 	$result[1]=$flag;
+	$result[2]=$input;
 	return $result;
 }

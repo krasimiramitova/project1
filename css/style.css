@@ -66,7 +66,7 @@ form
 	height: 25px;
 }
 
-.answer
+.answer, .answer_small
 {
 	font-family: Century Gothic, Helvetica, sans-serif;
 	color: yellow;
@@ -77,3 +77,276 @@ form
 	right: -50px;
 	top:80px;
 }	
+.answer_small
+{ 
+	font-size: 60px;
+	width: 250px;
+	text-align: center;
+	right: 50px;
+	top:105px;
+}	
+
+.img, .img_last
+{
+	position: relative;
+	width: 100px;
+	border: solid black 1px;
+	border-radius: 10px;
+	top: 250px;
+	left: 15px;
+	z-index: 1;
+}	
+.img_last
+{
+	border: solid red 5px ;
+	top: 254px;
+}
+#img1
+{
+	left: -60px;
+}	
+
+#img2
+{
+	left: -135px;
+}	
+
+#img3
+{
+	left: -210px;
+}	
+
+#img4
+{
+	left: -285px;
+}	
+
+#img5
+{
+	left: -360px;
+}	
+
+#img6
+{
+	left: -435px;
+}	
+
+#img7
+{
+	left: -510px;
+}	
+
+#img8
+{
+	left: -585px;
+}	
+
+#img9
+{
+	left: -660px;
+}	
+
+#img10
+{
+	left: -735px;
+}	
+
+#img11
+{
+	left: -810px;
+}	
+
+#img12
+{
+	left: -885px;
+}	
+
+#img13
+{
+	left: -960px;
+}	
+
+#img14
+{
+	left: -1035px;
+}	
+
+#img15
+{
+	left: -1110px;
+}	
+
+#img16
+{
+	left: -1185px;
+}	
+
+#img17
+{
+	left: -1260px;
+}	
+
+#img18
+{
+	left: -1335px;
+}	
+
+#img19
+{
+	left: -1410px;
+}	
+
+#img20
+{
+	left: -1485px;
+}	
+
+#img21
+{
+	left: -1560px;
+}	
+
+#img22
+{
+	left: -1635px;
+}	
+
+#img23
+{
+	left: -1710px;
+}	
+
+#img24
+{
+	left: -1785px;
+}	
+
+#img25
+{
+	left: -1860px;
+}	
+
+#img26
+{
+	left: -1935px;
+}	
+
+#img27
+{
+	left: -2010px;
+}	
+
+#img28
+{
+	left: -2085px;
+}	
+
+#img29
+{
+	left: -2160px;
+}	
+
+#img30
+{
+	left: -2235px;
+}	
+
+#img31
+{
+	left: -2310px;
+}	
+
+#img32
+{
+	left: -2385px;
+}	
+
+#img33
+{
+	left: -2460px;
+}	
+
+#img34
+{
+	left: -2535px;
+}	
+
+#img35
+{
+	left: -2610px;
+}	
+
+#img36
+{
+	left: -2685px;
+}	
+
+#img37
+{
+	left: -2760px;
+}	
+
+#img38
+{
+	left: -2835px;
+}	
+
+#img39
+{
+	left: -2910px;
+}	
+
+#img40
+{
+	left: -2985px;
+}	
+
+#img41
+{
+	left: -3060px;
+}	
+
+#img42
+{
+	left: -3135px;
+}	
+
+#img43
+{
+	left: -3210px;
+}	
+
+#img44
+{
+	left: -3285px;
+}	
+#img45
+{
+	left: -3360px;
+}	
+
+#img46
+{
+	left: -3435px;
+}	
+#img47
+{
+	left: -3510px;
+}	
+
+#img48
+{
+	left: -3585px;
+}	
+#img49
+{
+	left: -3660px;
+}
+#img50
+{
+	left: -3735px;
+}	
+#img51
+{
+	left: -3810px;
+}

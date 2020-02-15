@@ -1,8 +1,7 @@
 <?php
 function is_Stebins($input)
 {
-//work with input
-//$input='9C QH 4S 7D 10H';
+//check with input
 	$input=explode(' ', $input);
 	switch (substr($input[0],0,1)) 
 	{
@@ -25,7 +24,8 @@ function is_Stebins($input)
 			$j=substr($input[0],0,1)-1;
 			break;
 	} 
-	switch (substr($input[0],-1,1)) {
+	switch (substr($input[0],-1,1)) 
+	{
 		case 'C':
 			$k=0;
 			break;
@@ -39,15 +39,6 @@ function is_Stebins($input)
 			$k=3;
 			break;
 	}	
-
-//test input
-
-/*var_dump($j);
-echo '<pre>';
-var_dump($input);
-echo '</pre>';
-*/
-
 //generate Stabbins stack
 	$value=[];
 	$color=['C','H','S','D',];
@@ -60,8 +51,6 @@ echo '</pre>';
 		else			{$value[$i]=$i+1;}
 		}
 	$stack=[];
-//$k=0;
-//$j=0;
 	for ($t=0; $t<52; $t++)
 		{
 		$stack[$t]=[];
@@ -76,19 +65,12 @@ echo '</pre>';
 	{
 		$stack[$i]=implode($stack[$i]);
 	}
-//test generation
-/*
-echo '<pre>';
-var_dump($stack);
-echo '</pre>';
-*/
+//сравняване на двете тестета
 	$flag=true;
 	for ($i=0; $i<count($input);)
 	{		
 		if($input[$i]==$stack[$i])
 		{ 
-//test position break
-//			echo $i.' - '.$input[$i].' = '.$stack[$i].'<br>';
 			$i++;
 		}
 		else 
@@ -98,9 +80,7 @@ echo '</pre>';
 			break;
 		}
 	}
-	if ($flag==true)
-	{
-		echo '<div class="answer">yes</div>';
-	}
-	else {echo '<div class="answer">'.$i.'</div>';}
+	$result[0]=$i;
+	$result[1]=$flag;
+	return $result;
 }
